@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(92, 26, 190);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box{
+    padding: 0 4px;
+    width: 210px;
+    background-color: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-box input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    appearance: none;
+}
+
+.input-box img{
+    height: 18px;
+    width: 18px;
+}
